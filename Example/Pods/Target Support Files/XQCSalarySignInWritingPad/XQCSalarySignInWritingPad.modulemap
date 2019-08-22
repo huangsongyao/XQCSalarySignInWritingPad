@@ -1,0 +1,6 @@
+framework module XQCSalarySignInWritingPad {
+  umbrella header "XQCSalarySignInWritingPad-umbrella.h"
+
+  export *
+  module * { export * }
+}

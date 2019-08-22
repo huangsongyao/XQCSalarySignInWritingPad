@@ -1,0 +1,36 @@
+{
+  "name": "XQCSalarySignInWritingPad",
+  "version": "0.1.0",
+  "summary": "A short description of XQCSalarySignInWritingPad.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huangsongyao/XQCSalarySignInWritingPad",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huangsongyao": "huangsongyao@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/huangsongyao/XQCSalarySignInWritingPad.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XQCSalarySignInWritingPad/Classes/**/*",
+  "xcconfig": {
+    "ENABLE_TESTABILITY": true
+  },
+  "dependencies": {
+    "ReactiveObjC": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.0.3):
+    - SDWebImage/Core (= 5.0.3)
+  - SDWebImage/Core (5.0.3)
+  - XQCSalarySignInWritingPad (0.1.0):
+    - Masonry
+    - ReactiveObjC
+    - SDWebImage
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XQCSalarySignInWritingPad (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+    - Masonry
+    - ReactiveObjC
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  XQCSalarySignInWritingPad:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
+  XQCSalarySignInWritingPad: de8a2850b7c38786de0aa42d6d2c6e736d2e85f4
+
+PODFILE CHECKSUM: 19776bcc3f0bdd3a5f12414cf18203583ef4b483
+
+COCOAPODS: 1.5.0

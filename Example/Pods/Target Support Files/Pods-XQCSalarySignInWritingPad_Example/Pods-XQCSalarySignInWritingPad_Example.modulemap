@@ -1,0 +1,6 @@
+framework module Pods_XQCSalarySignInWritingPad_Example {
+  umbrella header "Pods-XQCSalarySignInWritingPad_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
