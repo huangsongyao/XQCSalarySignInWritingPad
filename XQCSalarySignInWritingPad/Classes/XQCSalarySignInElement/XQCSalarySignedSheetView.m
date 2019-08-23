@@ -337,7 +337,7 @@ typedef void(^XQCSignedInBodyBlock)(UIButton *button, XQCSalarySignedBodyView *s
             [self createSureButton:^(UIButton *button) {
                 @strongify(self);
                 self->_userSignedName = self.bodyView.writingPadView.signedInImageBase64Encoded;
-                [[sureSigned(self.userSignedName, self.bodyView.writingPadView.plotSignedInImage) deliverOn:[RACScheduler mainThreadScheduler]] subscribeNext:^(id _Nullable x) {
+                [[sureSigned(self.userSignedName, self.bodyView.writingPadView.plotSignedInImage) deliverOn:[RACScheduler mainThreadScheduler]] subscribeNext:^(NSNumber * _Nullable x) {
                     @strongify(self);
                     if ([x boolValue]) {
                         [self remove];

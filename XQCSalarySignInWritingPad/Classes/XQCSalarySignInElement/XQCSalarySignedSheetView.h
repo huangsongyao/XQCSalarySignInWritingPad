@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef RACSignal *_Nonnull(^XQCSalarySignedBlock)(NSString *userSignedString, UIImage *image); 
+typedef RACSignal<NSNumber *> *_Nonnull(^XQCSalarySignedBlock)(NSString *userSignedString, UIImage *image); 
 
 @interface XQCBaseSignedSheetView : UIView
 

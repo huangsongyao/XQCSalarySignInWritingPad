@@ -9,7 +9,7 @@ PODS:
   - SDWebImage (5.0.3):
     - SDWebImage/Core (= 5.0.3)
   - SDWebImage/Core (5.0.3)
-  - XQCSalarySignInWritingPad (0.1.0):
+  - XQCSalarySignInWritingPad (0.1.1):
     - Masonry
     - ReactiveObjC
     - SDWebImage
@@ -19,7 +19,7 @@ DEPENDENCIES:
   - XQCSalarySignInWritingPad (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
     - Masonry
     - ReactiveObjC
@@ -34,8 +34,8 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
-  XQCSalarySignInWritingPad: de8a2850b7c38786de0aa42d6d2c6e736d2e85f4
+  XQCSalarySignInWritingPad: 6d76fa8d4c2fc933074fd6ccc180547b96191a85
 
-PODFILE CHECKSUM: 19776bcc3f0bdd3a5f12414cf18203583ef4b483
+PODFILE CHECKSUM: c7635e6c2e093d0df952b353e1bc8bebc8bf1620
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.7.5
